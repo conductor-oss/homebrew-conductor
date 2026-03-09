@@ -1,25 +1,25 @@
 class Conductor < Formula
   desc "CLI for Conductor - The leading open-source orchestration platform"
   homepage "https://github.com/conductor-oss/conductor-cli"
-  version "0.0.49"
+  version "0.0.50"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.49/conductor_darwin_arm64"
-      sha256 "3f2e91a5760bef5deac6a2eac5f1032f33fc2896579fd1c3e873598b399739d8"
+      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.50/conductor_darwin_arm64"
+      sha256 "4dfb470845240cc0106a95ce97c5f5f59a87868c3eb65fce7ff432ce59c8ad69"
     else
-      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.49/conductor_darwin_amd64"
-      sha256 "646c6f981a8049f1cea2f4406fa32dfd4dd1d4b78bcd6e339a41a7df39616cbc"
+      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.50/conductor_darwin_amd64"
+      sha256 "2d5b16313cf8596c16047409f1fefbde24796643df5388820ce090d113576919"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.49/conductor_linux_arm64"
-      sha256 "6c0ef5f1e550eec4c70fec34aa734ec32f2242b5b294d7d0261a039d604cc54b"
+      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.50/conductor_linux_arm64"
+      sha256 "d33d22b9a63b21baf8c74ffe643809992d0c365a3d725b32adc598571466a0b6"
     else
-      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.49/conductor_linux_amd64"
-      sha256 "409b0152646932889a3c0c9eda33a362a68e3bc67620119cb4c369224a93f7d3"
+      url "https://github.com/conductor-oss/conductor-cli/releases/download/v0.0.50/conductor_linux_amd64"
+      sha256 "b764195b77a612523ba7d976d5c1cbfa7e1cd5f18b4b33340ebc526d0cdaaf86"
     end
   end
 
